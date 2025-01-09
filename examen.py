@@ -71,7 +71,7 @@ while True:
         print("❌")
 
     print("pregunta numero 9:")
-    opc=input("¿cual es la materia mas innecesaria que se da en las escuelas?\n"+"\x1b[1;31m pista: etica\n"+"\x1b[1;31m")
+    opc=input("¿cual es la materia mas innecesaria que se da en las escuelas?\n"+"\x1b[1;31m pista: etica\n"+"\x1b[1;37m")
     opc=opc.upper()
     if opc=="ETICA":
         print("✅")
@@ -89,10 +89,11 @@ while True:
 
     if count>60:
         print(f"felicidades, pasaste a la siguiente ronda con un puntaje de: {count}pts")
-
-    opc=input("quieres seguir jugando o pasar a la siguiente ronda?")
-    if opc=="no":
         break
+
+
+
+
 
     
 
