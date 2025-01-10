@@ -52,6 +52,7 @@ while True:
         print("Saliste!")
         break
     else:
+        print("Selecciona una opcion valida")
         break
 
 # Cerrar la conexión después de todas las operaciones
